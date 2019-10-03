@@ -21,7 +21,7 @@
   "author": "Westley Feller <feller.westley@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
@@ -40,5 +40,17 @@
     "stylelint-prettier": "^1.1.1",
     "stylelint-scss": "^3.11.1",
     "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
